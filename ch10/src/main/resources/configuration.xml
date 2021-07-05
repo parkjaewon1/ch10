@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias alias="board" type="com.ch.ch10.model.Board"/>
+		<typeAlias alias="rbd" type="com.ch.ch10.model.ReplyBoard"/>
+	</typeAliases>
+	<!-- 매퍼정보 설정 -->
+	<mappers>
+		<mapper resource="board.xml" />
+		<mapper resource="rbd.xml" />
+	</mappers>
+</configuration>
